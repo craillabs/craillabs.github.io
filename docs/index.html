@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>The Apache Crail (Incubating) Project: Overview</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://craillabs.github.io/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://craillabs.github.io/css/group.css" rel="stylesheet">
+        <link rel="alternate" type="application/atom+xml" title="Atom"
+            href="https://craillabs.github.io/blog/blog.xml">
+        <meta property="og:image" content="https://craillabs.github.io/img/crail-stack-preview.png" />
+        <meta property="og:image:secure_url" content="https://craillabs.github.io/img/crail-stack-preview.png" />
+        <meta property="keywords" content="storage disaggregation, RDMA, NVMe over Fabrics, NVMe-oF, Spark, Tensorflow, distributed data processing, serverless computing" />
+    </head>
+
+    <body>
+        <div class="container">
+          <div class="header">
+            <ul class="nav nav-pills pull-right">
+              
+              
+                
+                <li class="active">
+                  <a href="https://craillabs.github.io/">
+                    Home
+                  </a>
+                </li>
+              
+                
+                <li >
+                  <a href="https://craillabs.github.io/overview/">
+                    Overview
+                  </a>
+                </li>
+              
+                
+                <li >
+                  <a href="https://craillabs.github.io/download/">
+                    Downloads
+                  </a>
+                </li>
+              
+                
+                <li >
+                  <a href="https://craillabs.github.io/blog/">
+                    Blog
+                  </a>
+                </li>
+              
+                
+                <li >
+                  <a href="https://craillabs.github.io/community/">
+                    Community
+                  </a>
+                </li>
+              
+                
+                <li >
+                  <a href="https://craillabs.github.io/documentation/">
+                    Documentation
+                  </a>
+                </li>
+              
+            </ul>
+            <a href="https://craillabs.github.io/">
+                <img src="https://craillabs.github.io/img/crail_logo.png"
+                    srcset="https://craillabs.github.io/img/crail_logo.png"
+                    alt="Crail" id="logo">
+            </a>
+          </div>
+
+          
+          
+
+          <div class="jumbotron">
+<h4>Apache Crail (Incubating) is a high-performance distributed data store designed for fast sharing of ephemeral data in distributed data processing workloads</h4>
+<p><a class="btn btn-success" href="download/">Download Now</a></p>
+</div>
+
+<br>
+<div>
+<center>
+<img src="https://craillabs.github.io/img/crail_stack3.png" align="middle" style="width: 340px; text-align:center;">
+</center>
+</div>
+<br>
+
+<div class="row">
+<div class="col-lg-4">
+<h2>Fast</h2>
+<p align="justify">Crail is designed from ground up for modern high-performance networking and storage hardware (RDMA, NVMe, NVMf, etc.). It leverages user-level I/O to access hardware directly from the application context, providing bare-metal I/O performance to analytics workloads. For example, Crail achieves data access at rates close to the 100Gb/s network limit with latencies below 10 us.</p>
+<p><a class="btn btn-default" href="overview/index.html#overview">Learn more &raquo;</a></p>
+</div>
+<div class="col-lg-4">
+<h2>Heterogeneous</h2>
+<p align="justify">Crail offers a unified storage namespace over a heterogeneous set of storage resources distributed in a cluster, such as DRAM, non-volatile memory (NVM), Flash or GPU memory. Depending on the storage policy, data sets may be stored on a particular storage technology or even a specific storage device, or be distributed across multiple devices and storage technologies. 
+</p>
+<p><a class="btn btn-default" href="overview/index.html#fs">Learn more &raquo;</a></p>
+</div>
+<div class="col-lg-4">
+<h2>Modular</h2>
+<p align="justify">Crail provides a modular architecture where new network and storage technologies can be integrated in the form of pluggable modules. Crail further exports various application interfaces including File System (FS), Key-Value (KV) and Streaming, and integrates seamlessly with the Apache ecosystem, such as Apache Spark, Apache Parquet, Apache Arrow, etc.</p>
+<p><a class="btn btn-default" href="overview/index.html#spark">Learn more &raquo;</a></p>
+</div>
+</div>
+
+<h2>News</h2>
+<ul class="news list-unstyled">
+
+    
+        <li class="shortnews">
+            <span class="date">January 14, 2020</span>
+            <p>New release v1.2 of Apache Crail available for <a href="../download">download</a></p>
+
+        </li>
+    
+
+    
+        <li class="shortnews">
+            <span class="date">August 5, 2019</span>
+            <p>Paper on Crail’s system architecture was presented at <a href="https://www.usenix.org/conference/atc19/presentation/stuedi">USENIX ATC’19</a></p>
+
+        </li>
+    
+
+    
+        <li class="shortnews">
+            <span class="date">June 11, 2019</span>
+            <p>Crail is now part of the <a href="https://github.com/brianfrankcooper/YCSB">YCSB benchmark</a> suite</p>
+
+        </li>
+    
+
+    
+        <li class="shortnews">
+            <span class="date">April 11, 2019</span>
+            <p>Slides from Oreilly’s Strata talk on Crail are now <a href="https://conferences.oreilly.com/strata/strata-ca-2019/public/schedule/detail/71902">available</a></p>
+
+        </li>
+    
+
+    
+        <li class="shortnews">
+            <span class="date">August 9, 2018</span>
+            <p>A new blog <a href="https://craillabs.github.io/blog/2018/08/sql-p1.html">post</a> discussing file formats performance is now online</p>
+
+        </li>
+    
+
+</ul>
+
+
+<p><a href="https://craillabs.github.io/news/">Older posts&hellip;</a></p>
+
+
+
+        <br>
+	<br> 
+          <div class="footer">
+            <p>Apache Crail is an effort undergoing <a href="https://incubator.apache.org/">incubation</a> at <a href="https://www.apache.org/">The Apache Software Foundation (ASF)</a>, sponsored by the Apache Incubator PMC. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF.
+            </p>
+          </div>
+
+        </div> <!-- /container -->
+
+        <!-- Support retina images. -->
+        <script type="text/javascript"
+            src="https://craillabs.github.io/js/srcset-polyfill.js"></script>
+    </body>
+</html>

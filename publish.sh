@@ -22,6 +22,7 @@ cd site
 bundle exec jekyll clean
 bundle exec jekyll build -d _site
 COMMIT_HASH=`git rev-parse HEAD`
+cd ..
 rm -rf docs
 mkdir docs
 mv site/_site/* docs
