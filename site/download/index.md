@@ -5,7 +5,7 @@ title: Downloads
 
 ### Releases ###
 
-https://github.com/craillabs/crail/releases/
+[GitHub releases](https://github.com/craillabs/crail/releases/)
 
 ### Previous Releases ###
 
