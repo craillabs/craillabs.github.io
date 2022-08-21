@@ -1,4 +1,4 @@
 Crail Website
 ================================
 
-This is the source for the Apache Crail (Incubating) website available at http://crail.incubator.apache.org/. 
+This is the source for the Crail website available at https://craillabs.github.io/.

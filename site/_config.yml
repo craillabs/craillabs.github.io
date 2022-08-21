@@ -1,5 +1,5 @@
-name: The Apache Crail (Incubating) Project
-url: http://crail.incubator.apache.org/ 
+name: The Crail Project
+url: https://craillabs.github.io
 
 exclude: [bibble, README.md, Makefile]
 

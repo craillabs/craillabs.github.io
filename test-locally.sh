@@ -16,8 +16,8 @@
 # limitations under the License.
 #
 
-set -e 
+set -e
 cd site
 bundle exec jekyll serve --watch
-cd - 
+cd -
 set +e

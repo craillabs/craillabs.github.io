@@ -8,7 +8,7 @@ comments: true
 
 <div style="text-align: justify"> 
 <p>
-In the last <a href="http://crail.incubator.apache.org/blog/2019/03/disaggregation.html">blog post</a> we discussed the basic design of the Crail disaggregated shuffler as well as its performance under different configurations for two workloads. In this short follow-up blog we briefly describe the various options in Crail for deploying disaggregated storage. 
+In the last <a href="https://craillabs.github.io/blog/2019/03/disaggregation.html">blog post</a> we discussed the basic design of the Crail disaggregated shuffler as well as its performance under different configurations for two workloads. In this short follow-up blog we briefly describe the various options in Crail for deploying disaggregated storage. 
 </p>
 </div>
 
@@ -56,7 +56,7 @@ In all of the previously discussed configurations there is a one-to-one mapping 
 
 <div style="text-align: justify"> 
 <p>
-Storage classes can easily be defined in the slaves file as follows (see the <a href="https://incubator-crail.readthedocs.io/en/latest/config.html#storage-tiers">Crail documentation</a> for details):
+Storage classes can easily be defined in the slaves file as follows (see the <a href="https://crail.readthedocs.io/en/latest/config.html#storage-tiers">Crail documentation</a> for details):
 </p> 
 </div>   
 
