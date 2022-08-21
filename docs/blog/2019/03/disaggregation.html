@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>The Apache Crail (Incubating) Project: Shuffle Disaggregation using RDMA accessible remote DRAM and NVMe Flash</title>
+        <title>The Crail Project: Shuffle Disaggregation using RDMA accessible remote DRAM and NVMe Flash</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://craillabs.github.io/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://craillabs.github.io/css/group.css" rel="stylesheet">
@@ -231,7 +231,7 @@ Note that Crail disaggregated storage may be provided by a few highly dense stor
 
 <div style="text-align: justify"> 
  <p>
-The main observation from the figure is that there is almost no performance difference between the Crail co-located and the Crail disaggregated configurations, which means we can disaggregate shuffle data at literally no performance penalty. In fact, the performance improves slightly in the disaggregated configuration because more CPU cycles are available to execute the Spark workload, cycles that in the co-located setup are used for local storage processing. Generally, storing shuffle data in DRAM is about 25% faster than storing shuffle data on NVMe (matching the results of a previous <a href="http://crail.incubator.apache.org/blog/2017/08/crail-nvme-fabrics-v1.html">blog</a>). The effect, however, is independent from whether Crail is deployed in a co-located or in a disaggregated mode. Also note that using the Crail shuffler generally is about 2-3x faster than vanilla Spark, which is the result of faster I/O as well as improved serialization and sorting as discussed in a previous <a href="http://crail.incubator.apache.org/blog/2017/01/sorting.html">blog</a>. 
+The main observation from the figure is that there is almost no performance difference between the Crail co-located and the Crail disaggregated configurations, which means we can disaggregate shuffle data at literally no performance penalty. In fact, the performance improves slightly in the disaggregated configuration because more CPU cycles are available to execute the Spark workload, cycles that in the co-located setup are used for local storage processing. Generally, storing shuffle data in DRAM is about 25% faster than storing shuffle data on NVMe (matching the results of a previous <a href="https://craillabs.github.io/blog/2017/08/crail-nvme-fabrics-v1.html">blog</a>). The effect, however, is independent from whether Crail is deployed in a co-located or in a disaggregated mode. Also note that using the Crail shuffler generally is about 2-3x faster than vanilla Spark, which is the result of faster I/O as well as improved serialization and sorting as discussed in a previous <a href="https://craillabs.github.io/blog/2017/01/sorting.html">blog</a>. 
  </p>
 </div>
 
@@ -287,14 +287,6 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 -->
-
-
-        <br>
-	<br> 
-          <div class="footer">
-            <p>Apache Crail is an effort undergoing <a href="https://incubator.apache.org/">incubation</a> at <a href="https://www.apache.org/">The Apache Software Foundation (ASF)</a>, sponsored by the Apache Incubator PMC. Incubation is required of all newly accepted projects until a further review indicates that the infrastructure, communications, and decision making process have stabilized in a manner consistent with other successful ASF projects. While incubation status is not necessarily a reflection of the completeness or stability of the code, it does indicate that the project has yet to be fully endorsed by the ASF.
-            </p>
-          </div>
 
         </div> <!-- /container -->
 
